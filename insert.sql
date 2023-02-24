@@ -12,16 +12,16 @@ insert into cliente (nome, cpf, sexo, data_nascimento) values
 ;
 
 insert into endereco(id_cliente, logradouro, numero, bairro, estado, cidade, complemento, cep) values
-(19, "Rua das Conchas", 1, "Jardim Holanda", "SP", "São Paulo", "", "03613261"),
-(20, "Rua das Pedras", 2, "Jardim Europa", "SP", "São Paulo", "Próximo a loja do seu Zé", "03613262"),
-(21, "Rua das Folhas", 3, "Jardim América", "SP", "São Paulo", "Próximo ao butéco da esquina", "03613263"),
-(22, "Rua dos Ventos", 4, "Jardim das Flores", "SP", "São Paulo", "", "03613264"),
-(23, "Rua das Baleias", 5, "Jardim Espanha", "SP", "São Paulo", "Próximo a UBS", "03613265"),
-(24, "Rua das Areias", 6, "Jardins", "SP", "São Paulo", "Próximo ao mercado", "03613267"),
-(25, "Rua dos Felinos", 7, "Jardim Itália", "SP", "São Paulo", "", "03613268"),
-(26, "Rua dos Peixes", 8, "Vila Sonia", "SP", "São Paulo", "Próximo a igreja", "03613269"),
-(27, "Corifeu de Azevedo Marques", 233, "Butantã", "SP", "São Paulo", "Próximo a matriz RD e USP", "05581000"),
-(28, "Rua das Conchas", 10, "Jardim Holanda", "SP", "São Paulo", "Próximo a loja do seu Zé", "036132610")
+(1, "Rua das Conchas", 1, "Jardim Holanda", "SP", "São Paulo", "", "03613261"),
+(2, "Rua das Pedras", 2, "Jardim Europa", "SP", "São Paulo", "Próximo a loja do seu Zé", "03613262"),
+(3, "Rua das Folhas", 3, "Jardim América", "SP", "São Paulo", "Próximo ao butéco da esquina", "03613263"),
+(4, "Rua dos Ventos", 4, "Jardim das Flores", "SP", "São Paulo", "", "03613264"),
+(5, "Rua das Baleias", 5, "Jardim Espanha", "SP", "São Paulo", "Próximo a UBS", "03613265"),
+(6, "Rua das Areias", 6, "Jardins", "SP", "São Paulo", "Próximo ao mercado", "03613267"),
+(7, "Rua dos Felinos", 7, "Jardim Itália", "SP", "São Paulo", "", "03613268"),
+(8, "Rua dos Peixes", 8, "Vila Sonia", "SP", "São Paulo", "Próximo a igreja", "03613269"),
+(9, "Corifeu de Azevedo Marques", 233, "Butantã", "SP", "São Paulo", "Próximo a matriz RD e USP", "05581000"),
+(10, "Rua das Conchas", 10, "Jardim Holanda", "SP", "São Paulo", "Próximo a loja do seu Zé", "036132610")
 ;
 
 insert into fabricante(nome, cnpj) values
