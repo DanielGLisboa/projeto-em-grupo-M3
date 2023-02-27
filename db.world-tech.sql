@@ -52,7 +52,6 @@ CREATE TABLE `estoque` (
 
 CREATE TABLE `carrinho` (
   `id` int PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  `valor_total` float NOT NULL,
   `qtd_prod` int NOT NULL,
   `id_cliente` int NOT NULL,
   `id_produto` int NOT NULL
@@ -61,7 +60,7 @@ CREATE TABLE `carrinho` (
 CREATE TABLE `nota_fiscal` (
   `id` int PRIMARY KEY NOT NULL AUTO_INCREMENT,
   `valor_total` float NOT NULL,
-  `cpnj_empresa` char(14) NOT NULL
+  `cnpj_empresa` char(14) NOT NULL
 );
 
 CREATE TABLE `historico_compra` (
@@ -82,14 +81,14 @@ CREATE TABLE `suporte_cliente` (
 
 CREATE TABLE `dados_entrega` (
   `id` int PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  `id_carrinho` int NOT NULL
+  `id_carrinho` int NOT NULL,
+  `id_transportadora` int NOT NULL
 );
 
 CREATE TABLE `transportadora` (
   `id` int PRIMARY KEY NOT NULL AUTO_INCREMENT,
   `nome` varchar(100) NOT NULL,
-  `cnpj` char(14) UNIQUE NOT NULL,
-  `id_dados_entrega` int NOT NULL
+  `cnpj` char(14) UNIQUE NOT NULL
 );
 
 CREATE TABLE `contato` (
@@ -98,8 +97,7 @@ CREATE TABLE `contato` (
   `ddd` int NOT NULL,
   `email` varchar(50) UNIQUE,
   `id_cliente` int,
-  `id_transportadora` int,
-  `id_suporte` int
+  `id_transportadora` int
 );
 
 CREATE TABLE `pagamento` (
@@ -120,15 +118,19 @@ ALTER TABLE `carrinho` ADD FOREIGN KEY (`id_cliente`) REFERENCES `cliente` (`id`
 
 ALTER TABLE `carrinho` ADD FOREIGN KEY (`id_produto`) REFERENCES `produto` (`id`);
 
-ALTER TABLE `nota_fiscal` ADD FOREIGN KEY (`cpnj_empresa`) REFERENCES `dados_empresa` (`cnpj`);
+ALTER TABLE `nota_fiscal` ADD `id_cliente` int;
+
+ALTER TABLE `nota_fiscal` ADD FOREIGN KEY (`id_cliente`) REFERENCES `cliente` (`id`);
+
+ALTER TABLE `nota_fiscal` ADD FOREIGN KEY (`cnpj_empresa`) REFERENCES `dados_empresa` (`cnpj`);
 
 ALTER TABLE `historico_compra` ADD FOREIGN KEY (`id_carrinho`) REFERENCES `carrinho` (`id`);
 
 ALTER TABLE `historico_compra` ADD FOREIGN KEY (`id_nota_fiscal`) REFERENCES `nota_fiscal` (`id`);
 
-ALTER TABLE `historico_compra` ADD `id_historico_compra` int;
+ALTER TABLE `historico_compra` ADD `id_pagamento` int;
 
-ALTER TABLE `historico_compra` ADD FOREIGN KEY (`id_historico_compra`) REFERENCES `historico_compra` (`id`);
+ALTER TABLE `historico_compra` ADD FOREIGN KEY (`id_pagamento`) REFERENCES `pagamento` (`id`);
 
 ALTER TABLE `suporte_cliente` ADD FOREIGN KEY (`id_cliente`) REFERENCES `cliente` (`id`);
 
@@ -136,12 +138,10 @@ ALTER TABLE `suporte_cliente` ADD FOREIGN KEY (`id_historico_compra`) REFERENCES
 
 ALTER TABLE `dados_entrega` ADD FOREIGN KEY (`id_carrinho`) REFERENCES `carrinho` (`id`);
 
-ALTER TABLE `transportadora` ADD FOREIGN KEY (`id_dados_entrega`) REFERENCES `dados_entrega` (`id`);
+ALTER TABLE `dados_entrega` ADD FOREIGN KEY (`id_transportadora`) REFERENCES `transportadora` (`id`);
 
 ALTER TABLE `contato` ADD FOREIGN KEY (`id_cliente`) REFERENCES `cliente` (`id`);
 
 ALTER TABLE `contato` ADD FOREIGN KEY (`id_transportadora`) REFERENCES `transportadora` (`id`);
-
-ALTER TABLE `contato` ADD FOREIGN KEY (`id_suporte`) REFERENCES `suporte_cliente` (`id`);
 
 
