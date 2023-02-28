@@ -63,9 +63,10 @@ ADD  `nome_da_coluna` (`tipo_dados`);
 
 ![brmodelo900cc93b28f5dbe2.png](https://www.imagemhost.com.br/images/2023/02/28/brmodelo900cc93b28f5dbe2.png)
 ![dbdiagram742ffbeaafe2e9dd.png](https://www.imagemhost.com.br/images/2023/02/28/dbdiagram742ffbeaafe2e9dd.png)
-![vscode1b590d4046d66f06.png](https://www.imagemhost.com.br/images/2023/02/28/vscode1b590d4046d66f06.png)
+![mysql03e384f86280795e.png](https://www.imagemhost.com.br/images/2023/02/28/mysql03e384f86280795e.png)
 ![trello.png](https://www.imagemhost.com.br/images/2023/02/28/trello.png)
 ![github.png](https://www.imagemhost.com.br/images/2023/02/28/github.png)
+![vscode1b590d4046d66f06.png](https://www.imagemhost.com.br/images/2023/02/28/vscode1b590d4046d66f06.png)
 </div>
 
 ## 🦸 Autores
