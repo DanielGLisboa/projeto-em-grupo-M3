@@ -121,7 +121,7 @@ ADD  `nome_da_coluna` (`tipo_dados`);
 
 ## 📝 Licença
 
-Projeto Feito por João Vitor Dias,Ivan Gustavo Silva, Maria Jackeline e Daniel Lisboa para Resilia Educação em parceria com a RD.
+Projeto Feito por João Vitor Dias, Daniel Lisboa, Maria Jackeline e Ivan Gustavo Silva para Resilia Educação em parceria com a RD.
 
 ---
 ![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
