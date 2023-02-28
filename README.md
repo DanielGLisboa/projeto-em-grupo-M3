@@ -4,7 +4,6 @@
 
 ## <p>🎯 Objetivo:</p> Criar um banco de dados de um futuro sistema web que será usado em um e-commerce.
 
-​
 ⚠Para utilizar Banco de Dados, necessário ter MySQL instalado na máquina. ⚠
 ### <p>⚙️Como utilizar:</p>
 
@@ -57,26 +56,16 @@ ADD  `nome_da_coluna` (`tipo_dados`);
 <p> <span style="margin-left: 30px;"> Para o desenvolvimento do projeto, utilizamos o <strong>BrModelo</strong> o <strong>DBdiagram</strong> para estruturar e modelar o banco, o <strong>MySQL</strong> como ferramenta para armazenar o Banco,<strong>Trello</strong> para gerenciamento de projeto e <strong>GitHub</strong> para versionar e armazenar o projeto.
 </p>
 
-![diagrama.png](https://www.imagemhost.com.br/images/2023/02/28/diagrama.png)
-
-<div style='display: flex; justify-content: center;'>      
-    <img src="assets\img\file_type_vscode_icon_130084.png">
-    <img src="assets\img\github-logo_icon-icons.com_73546.png">
-</div>
-
-
+[![diagrama.png](https://www.imagemhost.com.br/images/2023/02/28/diagrama.png)](https://www.imagemhost.com.br/image/rnAwLU)
 
 ### <p>💻Técnologias utilizadas:</p>
-<div style="display: inline_block"><br>
+<div><br>
 
-<img align="center" alt="Joao-HTML" height="50" width="50" src=
-
- <img align="center" alt="Joao-CSS" height="50" width="50" 
-
- <img align="center" alt="Joao-Js" height="50" width="50" 
-
- <img align="center" alt="Joao-Bootstrap" height="60" width="60" 
-
+![brmodelo900cc93b28f5dbe2.png](https://www.imagemhost.com.br/images/2023/02/28/brmodelo900cc93b28f5dbe2.png)
+![dbdiagram742ffbeaafe2e9dd.png](https://www.imagemhost.com.br/images/2023/02/28/dbdiagram742ffbeaafe2e9dd.png)
+![vscode1b590d4046d66f06.png](https://www.imagemhost.com.br/images/2023/02/28/vscode1b590d4046d66f06.png)
+![trello.png](https://www.imagemhost.com.br/images/2023/02/28/trello.png)
+![github.png](https://www.imagemhost.com.br/images/2023/02/28/github.png)
 </div>
 
 ## 🦸 Autores
@@ -124,7 +113,7 @@ ADD  `nome_da_coluna` (`tipo_dados`);
 <br>
 
 
- [![Linkedin Badge](https://img.shields.io/badge/IvanGustavo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/ivan-gustavo-dev1n/)](https://www.linkedin.com/in/ivan-gustavo-dev1n/) [![Github Badge](https://img.shields.io/badge/IvanGustavo-100000?style=for-the-badge&logo=github&logoColor=whitee&link=https://github.com/fernandoap46)](https://github.com/fernandoap46)
+[![Linkedin Badge](https://img.shields.io/badge/IvanGustavo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/ivan-gustavo-dev1n/)](https://www.linkedin.com/in/ivan-gustavo-dev1n/) [![Github Badge](https://img.shields.io/badge/IvanGustavo-100000?style=for-the-badge&logo=github&logoColor=whitee&link=https://github.com/fernandoap46)](https://github.com/fernandoap46)
 
 </table>
 
