@@ -135,8 +135,7 @@ insert into transportadora (nome, cnpj) values
 
 insert into dados_entrega (id_carrinho, id_transportadora) values 
 (1, 1),
-(1, 1),
-(2, 2),
+(2, 1),
 (3, 4),
 (4, 3),
 (5, 2),
