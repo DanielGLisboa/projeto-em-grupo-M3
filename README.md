@@ -1,6 +1,7 @@
 # World Tech
 
-![Banco-de-Dados.png](https://www.imagemhost.com.br/images/2023/02/28/Banco-de-Dados.png)
+![image](https://user-images.githubusercontent.com/56852114/222471630-0c076679-c39d-43bb-8b83-cbd415a24385.png)
+
 
 ## <p>🎯 Objetivo:</p> Criar um banco de dados de um futuro sistema web que será usado em um e-commerce.
 
