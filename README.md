@@ -56,7 +56,7 @@ ADD  `nome_da_coluna` (`tipo_dados`);
 <p> <span style="margin-left: 30px;"> Para o desenvolvimento do projeto, utilizamos o <strong>BrModelo</strong> o <strong>DBdiagram</strong> para estruturar e modelar o banco, o <strong>MySQL</strong> como ferramenta para armazenar o Banco,<strong>Trello</strong> para gerenciamento de projeto e <strong>GitHub</strong> para versionar e armazenar o projeto.
 </p>
 
-[![diagrama.png](https://www.imagemhost.com.br/images/2023/02/28/diagrama.png)](https://www.imagemhost.com.br/image/rnAwLU)
+![image.png](https://www.imagemhost.com.br/images/2023/03/02/image.png)
 
 ### <p>💻Técnologias utilizadas:</p>
 <div><br>
@@ -86,7 +86,7 @@ ADD  `nome_da_coluna` (`tipo_dados`);
   <b>Daniel Lisboa</b>
 <br>
     
-  [![Linkedin Badge](https://img.shields.io/badge/DanielGLisboa-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/daniel-lisboa-9b1a281aa/)](https:https://www.linkedin.com/in/daniel-lisboa-9b1a281aa/) [![Github Badge](https://img.shields.io/badge/DanielGLisboa-100000?style=for-the-badge&logo=github&logoColor=whitee&link=https://github.com/DanielGLisboa)](https://github.com/DanielGLisboa)
+  [![Linkedin Badge](https://img.shields.io/badge/DanielGLisboa-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/daniel-lisboa-9b1a281aa/)](https://www.linkedin.com/in/daniel-lisboa-9b1a281aa/) [![Github Badge](https://img.shields.io/badge/DanielGLisboa-100000?style=for-the-badge&logo=github&logoColor=whitee&link=https://github.com/DanielGLisboa)](https://github.com/DanielGLisboa)
 
 
 
