@@ -57,7 +57,7 @@ ADD  `nome_da_coluna` (`tipo_dados`);
 <p> <span style="margin-left: 30px;"> Para o desenvolvimento do projeto, utilizamos o <strong>BrModelo</strong> o <strong>DBdiagram</strong> para estruturar e modelar o banco, o <strong>MySQL</strong> como ferramenta para armazenar o Banco,<strong>Trello</strong> para gerenciamento de projeto e <strong>GitHub</strong> para versionar e armazenar o projeto.
 </p>
 
-![image.png](https://www.imagemhost.com.br/images/2023/03/02/image.png)
+![image](https://user-images.githubusercontent.com/56852114/222471878-bd694a3e-ad3a-4afc-80dc-c703bf3f0d04.png)
 
 ### <p>💻Técnologias utilizadas:</p>
 <div><br>
